@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+class xyz{
+    int a;
+    public:
+    void getdata(){
+        cout<<"\nEnter the number";
+        cin>>a;
+    }
+    void putdata(){
+        cout<<"\n";
+    }
+};
+int main(){
+    xyz aa[5];
+    int i;
+    for(i=0;i<5;i++)
+    aa[i].getdata();
+    for(i=0;i<5;i++)
+    aa[i].putdata();
+    return 0;
+}
