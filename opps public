@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+class student{
+    public:
+    string name;
+    int age, roll_number;
+    string grade;
+
+};
+
+int main()
+{
+    student s1;
+    s1.name="sundram";
+    s1.age=19;
+    s1.roll_number=82;
+    s1.grade="A++";
+    cout<<s1.age<<"";
+
+    student s2;
+    s2.name="suraj";
+    s2.age=21;
+    s2.roll_number=18;
+    s2.grade="A";
+    cout<<s2.name<<"";
+
+}
